@@ -15,3 +15,5 @@ jobs:
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           accountId: ae0bd0fdca3d0a8b6867a12b915f36f6
+env:
+CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
