@@ -1,0 +1,6 @@
+name = "whatsapp-webhook"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+[vars]
+VERIFY_TOKEN = "whsec_cloudflare_2026"
